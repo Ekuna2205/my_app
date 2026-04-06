@@ -1,0 +1,26 @@
+name: rr
+description: "A new Flutter project."
+publish_to: 'none'
+version: 1.0.0+1
+
+environment:
+  sdk: ">=3.10.0 <4.0.0"
+
+dependencies:
+  flutter:
+    sdk: flutter
+
+  cupertino_icons: ^1.0.8
+
+  # SQLite болон path package
+  sqflite: ^2.2.8+4
+  path: ^1.8.3
+  sqflite_common_ffi: ^2.4.0+2  # Desktop-д FFI-д зориулсан тогтвортой хувилбар
+  qr_flutter: ^4.1.0
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  flutter_lints: ^6.0.0
+
+flutter:
+  uses-material-design: true
